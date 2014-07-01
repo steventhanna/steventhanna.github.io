@@ -43,7 +43,7 @@ p {
     float: left;
     height: 59.8125px;
     margin-left: 9.205812%;
-    margin-top: 49px;
+    margin-top: 40px;
     clear: both;
     width: 59.8125px;
     border-top-left-radius: 100px;
@@ -58,7 +58,7 @@ p {
 #image {
     float: left;
     width: auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin-left: 0%;
     margin-top: 0px;
@@ -187,8 +187,8 @@ p {
 
 #image1 {
     float: left;
-    width: auto;
-    height: auto;
+    width: 70%;
+    height: 70%;
     margin-left: 30%;
     margin-top: 47.1875px;
     clear: none;
@@ -285,12 +285,10 @@ p {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 8.84047%;
     margin-top: 35px;
     clear: none;
     min-height: 42px;
     font-family: open-sans;
-    margin-right: 0%;
 }
 
 #educationBody11 {
@@ -300,12 +298,13 @@ p {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 8.778757%;
+    margin-left: 8%;
     margin-top: 7.59375px;
     clear: none;
     min-height: 133px;
     color: rgb(108, 108, 108);
     margin-right: 0%;
+    padding-right: 20px;
 }
 
 #skills:hover {
