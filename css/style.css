@@ -85,9 +85,10 @@ HERO AREA
     max-width: 900px;
 }
 .heroshot{
-    margin-top: 20px;
+    margin-top: 75px;
     width: 100%;
     max-width: 1200px;
+    padding-bottom: 25px;
 
 }
 
@@ -121,12 +122,18 @@ CLIENTS SECTION
 /*================================
 ABOUT SECTION
 ================================*/
-#about{padding-top: 100px;}
+#about {
+    padding-top: 100px;
+}
 
 .myapps{margin-top: 25px;}
 .myapps li{display: inline}
 .myapps li img{
     width: 30px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*================================
@@ -315,3 +322,6 @@ FOLLOW BUTTON
     border-right-color: white;
 }
 
+.push-80 {
+    padding-top: 80px;
+}
