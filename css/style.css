@@ -1,0 +1,60 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header intro */
+.header { 
+	background-color: #fff;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.header h1 {
+	font-size: 54px;
+	text-align: center;
+	color: #000;
+	font-weight: 300;
+	margin-top: 200px; 
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header .sub {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 50px;
+	color: #000;
+}
+
+.header .thingsIAm {
+	color: #1E6E11;
+}
+
+.header .text-muted {
+	color: #1E6E11;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
