@@ -4,37 +4,27 @@ html {
 
 /* Header intro */
 .header { 
-	background-color: #fff;
+	background-color: #001644;
+	color: #fff;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 500px;
+	margin-bottom: 50px;
+}
+
+.header .container {
+	width: 80%;
 }
 
 .header h1 {
-	font-size: 54px;
-	text-align: center;
-	color: #000;
+	color: #fff;
 	font-weight: 300;
-	margin-top: 200px; 
-	font-family: 'Montserrat', sans-serif;
+	font-size: 56px;
 }
 
-.header .sub {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 48px;
-	text-align: center;
-	margin-top: 50px;
-	color: #000;
-}
-
-.header .thingsIAm {
-	color: #1E6E11;
-}
-
-.header .text-muted {
-	color: #1E6E11;
+.header p {
+	font-size: 30px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .typed-cursor{
