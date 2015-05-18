@@ -142,4 +142,19 @@ html {
 	padding-bottom: 10px;
 }
 
+/* Work Section */
+.work {
+	background-color: #001644;
+	color: #fff;
+}
+
+.work h1 {
+	color: #fff;
+	font-size: 58px;
+	font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #fff;
+	text-align: center;
+}
 
