@@ -194,3 +194,53 @@ html {
 	font-weight: 300;
 }
 
+.projects {
+	background-color: #001644;
+	color: #fff;
+}
+
+.projects h1 {
+	color: #fff;
+	font-size: 58px;font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.projects .project {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left-width: 5px;
+	border-left-color: #fff;
+	border-left-style: solid;
+	padding-left: 15px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.projects .project .name {
+	color: #fff;
+	text-align: left;
+	font-size: 28px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+
+.projects .project .title-date {
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+
+.projects .project .description {
+	color: #fff;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: 300;
+}

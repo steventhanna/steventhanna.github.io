@@ -24,8 +24,13 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <script>
+    try {
+      Typekit.load();
+    } catch (e) {}
+  </script>
 </head>
+
 <body>
   <!-- Header -->
   <div id="header" class="header">
@@ -39,7 +44,7 @@
       </div>
     </div>
     <!-- Node animation -->
-        <canvas></canvas>
+    <canvas></canvas>
   </div>
   <!-- End Header -->
   <!-- Start About Me section -->
@@ -47,7 +52,8 @@
     <div class="container">
       <div class="row">
         <h1>About Me</h1>
-        <p>My name is Steven Hanna, a Software Developer and Designer from Chicago, IL.  I push myself to deliver stellar products with robust backends, and beautiful UI Designs.  I am currently working on several projects, as well as studying Computer Science full time.</p>
+        <p>My name is Steven Hanna, a Software Developer and Designer from Chicago, IL. I push myself to deliver stellar products with robust backends, and beautiful UI Designs. I am currently working on several projects, as well as studying Computer Science
+          full time.</p>
         <center><a class="btn btn-lg btn-github" href="http://github.com/steventhanna"><i class="fa fa-github"></i> View GitHub Profile</a></center>
       </div>
     </div>
@@ -61,7 +67,7 @@
         <div class="col-lg-6">
           <div class="school">
             <h1>Syracuse University</h1>
-            <p class="major-date">Computer Science | AUG, 2015 - Current</p>  
+            <p class="major-date">Computer Science | AUG, 2015 - Current</p>
             <p>Freshmen at Syracuse University in the Engineering and Computer Science Honors Program</p>
           </div>
         </div>
@@ -69,7 +75,8 @@
           <div class="school">
             <h1>Glenbard West High School</h1>
             <p class="major-date">AUG, 2011 - JUN, 2015</p>
-            <p>Graduated with a 4.8 / 5.0 GPA.  <br> In all Honors / AP Classes.</p>
+            <p>Graduated with a 4.8 / 5.0 GPA.
+              <br> In all Honors / AP Classes.</p>
           </div>
         </div>
       </div>
@@ -84,37 +91,64 @@
         <div class="job">
           <h1 class="name">AdsWithFriends</h1>
           <p class="title-date">Chief Branding Officer | May, 2014 - Current</p>
-          <p class="description">Created and implemented the initial design and infrastructure for the AdsWithFriends ecosystem.  Responsible for overall brand appeal, including marketing strategies, UI Design, UX Design, and User research.</p>
+          <p class="description">Created and implemented the initial design and infrastructure for the AdsWithFriends ecosystem. Responsible for overall brand appeal, including marketing strategies, UI Design, UX Design, and User research.</p>
         </div>
-      <div class="job">
-        <h1 class="name">Freelance Web Design</h1>
-        <p class="title-date">Mar, 2014 - Feb, 2015</p>
-        <p class="description">Created and maintained several websites, including personal blogs with a full integrated backends, and well as beautiful personal portfolio sites.</p>
+        <div class="job">
+          <h1 class="name">Freelance Web Design</h1>
+          <p class="title-date">Mar, 2014 - Feb, 2015</p>
+          <p class="description">Created and maintained several websites, including personal blogs with a full integrated backends, and well as beautiful personal portfolio sites.</p>
+        </div>
       </div>
     </div>
-  </div>
+    <!-- End work -->
+    <!-- Bgin Projects -->
+    <div class="projects">
+        <div class="container">
+            <div class="row">
+                <h1>Projects</h1>
+            </div>
+            <div class="row">
+                <div class="project">
+                  <h1 class="name">Snoozit</h1>
+                  <p class="title-date">APR, 2015 - Current</p>
+                  <p class="description">
+                    Mobile application that allows people who use public transit to sleep until they arrive within a certain distance from their stop, in which they are awakened again.
+                  </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="project">
+                    <h1 class="name">Glenbard West Track Blog</h1>
+                    <p class="title-date">Lead Designer and Head of Customer Support | Jul, 2014 – Feb, 2015</p>
+                    <p class="description">
+                      Designed, created, and implemented a custom backend and frontend for the Glenbard West Track and Field team, with advanced posting mechanisms.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/typed.min.js"></script>
-  <script>
-      $(function(){
-          $(".thingsIAm").typed({
-            strings: [" Student", " Designer", " Developer"],
-            typeSpeed: 150
-          });
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script>
+      $(function() {
+        $(".thingsIAm").typed({
+          strings: [" Student", " Designer", " Developer"],
+          typeSpeed: 150
+        });
       });
     </script>
 </body>
 
-  <script src="js/TweenLite.min.js"></script>
-  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="js/EasePack.min.js"></script>
-  <script src="js/rAF.js"></script>
-  <script src="js/site.js"></script>
-  <script src="js/typed.min.js"></script>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/site.js"></script>
+<script src="js/typed.min.js"></script>
 
 </html>
