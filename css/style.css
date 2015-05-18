@@ -29,6 +29,7 @@ html {
 	font-weight: 400;
 }
 
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -70,5 +71,25 @@ html {
 .about p {
 	text-align: left;
 	font-size: 21px;
+}
 
+.about .btn-github {
+	color: #001644;
+	border-color: #001644;
+	font-size: 24px;
+	border-radius: 0px;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.about .btn:hover {
+	color: #fff;
+	background-color: #001644;
+	font-size: 24px;
+	border-radius: 0px;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
 }

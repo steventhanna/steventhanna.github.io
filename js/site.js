@@ -17,7 +17,7 @@
 
         canvas = document.querySelector('canvas');
         canvas.width = width;
-        canvas.height = height;
+        canvas.height = $("#header").height() - 200;
         ctx = canvas.getContext('2d');
 
         // create points
