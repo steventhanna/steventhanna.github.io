@@ -17,6 +17,10 @@ html {
 	width: 80%;
 }
 
+.container {
+	width: 90%;
+}
+
 .header h1 {
 	color: #fff;
 	font-weight: 300;
@@ -58,6 +62,7 @@ html {
 .about {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
+	margin-bottom: 50px;
 }
 
 .about h1 {
@@ -92,4 +97,49 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
+
+/* Education section */
+.education {
+	background-color: #AA6B39;
 }
+
+.education h1 {
+	color: #fff;
+	font-size: 58px;
+	font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+.education .school {
+	background-color: #fff;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 50px;
+}
+
+.education .school h1 {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #001644;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.education .school .major-date {
+	font-size: 24px;
+	color: #000;
+	font-weight: 300;
+}
+
+.education .school p {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+
