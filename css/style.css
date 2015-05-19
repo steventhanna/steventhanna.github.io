@@ -2,6 +2,10 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 
+body {
+	padding-top: 50px;
+}
+
 /* Header intro */
 .header {
 	background-color: #001644;
@@ -20,6 +24,45 @@ html {
 .container {
 	width: 90%;
 }
+
+/* Navbar */
+.navbar .navbar-brand {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.navbar-default {
+	background-color: #001644;
+	border-bottom: none;
+	height: 60px;
+	padding-top: 5px;
+}
+
+.navbar-nav {
+	background-color: #001644;
+}
+
+.nav {
+	background-color: #001644;
+}
+
+.nav .navbar-nav {
+	background-color: #001644;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #AA6B39;
+}
+
+/* End navbar */
 
 .header h1 {
 	color: #fff;
@@ -259,5 +302,19 @@ html {
 	font-size: 18px;
 	margin-top: 0px;
 	margin-bottom: 10px;
+	font-weight: 300;
+}
+
+/* Footer */
+footer {
+	background-color: #fff;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+footer p {
+	color: #001644;
+	font-size: 18px;
 	font-weight: 300;
 }

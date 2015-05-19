@@ -35,10 +35,36 @@
 <body>
   <!-- Header -->
   <div id="header" class="header">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
     <div class="container">
 
       <div class="row">
-        <h1>Steven T Hanna</h1>
+        <h1>Steven Hanna</h1>
         <p>
           <span class="thingsIAm"></span>
         </p>
@@ -49,13 +75,13 @@
   </div>
   <!-- End Header -->
   <!-- Start About Me section -->
-  <div class="about">
+  <div id="about" class="about">
     <div class="container">
       <div class="row">
         <h1>About Me</h1>
         <center>
-        <p href="emailto:steventhanna@gmail.com" class="email">1.630.880.0793 | steventhanna@gmail.com</p>
-      </center>
+          <p href="emailto:steventhanna@gmail.com" class="email">1.630.880.0793 | steventhanna@gmail.com</p>
+        </center>
         <center>
           <a href="http://github.com/steventhanna"><i class="fa fa-github fa-3x"></i></a>
           <a href="http://twitter.com/steventhanna"><i class="fa fa-twitter fa-3x"></i></a>
@@ -74,7 +100,7 @@
   </div>
   <!-- End About Me -->
   <!-- Start Education -->
-  <div class="education">
+  <div id="education" class="education">
     <div class="container">
       <div class="row">
         <h1>Education</h1>
@@ -98,7 +124,7 @@
   </div>
   <!-- End Education -->
   <!-- Begin Work -->
-  <div class="work">
+  <div id="work" class="work">
     <div class="container">
       <div class="row">
         <h1>Work Experience</h1>
@@ -121,7 +147,7 @@
     </div>
     <!-- End work -->
     <!-- Bgin Projects -->
-    <div class="projects">
+    <div id="projects" class="projects">
       <div class="container">
         <div class="row">
           <h1>Projects</h1>
@@ -145,16 +171,22 @@
           </div>
         </div>
         <div class="row">
-            <div class="project">
-                <a href="http://stosur.info/streamr" class="name">Streamr</a>
-                <p class="title-date">Lead Designer and Code Implementation | Nov, 2013 - Dec, 2013</p>
-                <p class="description">
-                  Designed, implemented, and maintained a revolutionary new type of site that allows the user to read much faster than average.  By forcing the user to not move their eyes inbetween words, the words per minute time has increased exponentially.
-                </p>
-            </div>
+          <div class="project">
+            <a href="http://stosur.info/streamr" class="name">Streamr</a>
+            <p class="title-date">Lead Designer and Code Implementation | Nov, 2013 - Dec, 2013</p>
+            <p class="description">
+              Designed, implemented, and maintained a revolutionary new type of site that allows the user to read much faster than average. By forcing the user to not move their eyes inbetween words, the words per minute time has increased exponentially.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+    <footer>
+      <p>
+        Steven Hanna | Copyright 2015
+      </p>
+    </footer>
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
