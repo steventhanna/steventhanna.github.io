@@ -7,7 +7,7 @@ Because the Javascript in this specific project utilizes cross origin requests, 
 ### Creating a Simple Server
 Make sure Python is installed.
 
-```shell
+```python
 python -m SimpleHTTPServer
 ```
 You should be good to go
