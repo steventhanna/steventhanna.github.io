@@ -627,3 +627,8 @@ Javascript disabled
 strong {
   font-weight: 700;
 }
+
+.is-open .cd-fold-content p em {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
