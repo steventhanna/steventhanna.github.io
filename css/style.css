@@ -6,6 +6,8 @@
 
 body {
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
 }
 
 .header {
@@ -47,4 +49,61 @@ body {
 
 .header a {
   color: #fff;
+}
+
+.item {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.item h1 {
+  font-size: 42px;
+  margin-top: 0px;
+}
+
+.item h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.item p {
+  font-size: 18px;
+}
+
+.project h1 {
+  margin-bottom: 0px;
+}
+
+.project h3 {
+  margin-top: 5px;
+}
+
+.project a {
+  color: #000;
+}
+
+.project p {
+  font-size: 16px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

@@ -7,7 +7,7 @@ $(document).ready(function() {
     if (minutes < 9) {
         minutes = "0" + minutes;
     }
-    if (hours < 9) {
+    if (seconds < 9) {
         seconds = "0" + seconds;
     }
     if (hours < 9) {
@@ -17,4 +17,9 @@ $(document).ready(function() {
     var builder = hours + ":" + minutes + ":" + seconds;
     document.getElementById('time').innerHTML = builder;
 
+    $("#typedText").typed({
+        strings: ['student', 'designer', '<a href="http://github.com/steventhanna/">developer</a>'],
+        contentType: 'html',
+        typeSpeed: 200
+    });
 });
