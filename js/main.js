@@ -18,8 +18,8 @@ $(document).ready(function() {
     document.getElementById('time').innerHTML = builder;
 
     $("#typedText").typed({
-        strings: ['student', 'designer', '<a href="http://github.com/steventhanna/">developer</a>'],
+        strings: ['student', 'designer', '<a href="http://github.com/steventhanna/">developer</a> - steventhanna@gmail.com'],
         contentType: 'html',
-        typeSpeed: 200
+        typeSpeed: 100
     });
 });

@@ -18,7 +18,7 @@ body {
 
 .header h1 {
   color: #fff;
-  font-family: 'Menlo';
+  font-family: 'Source Code Pro', monospace;
   font-size: 20px;
 }
 
